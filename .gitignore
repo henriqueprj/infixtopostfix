@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+## lock files
+*.lock.json
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -25,11 +28,14 @@ bld/
 # Visual Studo 2015 cache/options directory
 .vs/
 
+# Roslyn cache directories
+*.ide/
+
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# NUNIT
+#NUNIT
 *.VisualState.xml
 TestResult.xml
 
@@ -129,7 +135,7 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -141,7 +147,7 @@ publish/
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
-#!**/packages/repositories.config
+!**/packages/repositories.config
 
 # Windows Azure Build Output
 csx/
@@ -151,6 +157,7 @@ csx/
 AppPackages/
 
 # Others
+sql/
 *.[Cc]ache
 ClientBin/
 [Ss]tyle[Cc]op.*
@@ -186,6 +193,11 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+# LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
+
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
@@ -194,3 +206,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Web Storm
+.idea

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA42D20F-413C-4479-A671-763AA46E91E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DB1237BC-3478-476A-8375-CCAB8A114037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathParser", "src\MathParser\MathParser.csproj", "{44E2D824-6566-49A0-96E1-8F09461D0D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathParser.Tests", "test\MathParser.Tests\MathParser.Tests.csproj", "{77AB846D-2DBC-467B-A55D-1B401F991005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E2D824-6566-49A0-96E1-8F09461D0D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E2D824-6566-49A0-96E1-8F09461D0D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E2D824-6566-49A0-96E1-8F09461D0D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E2D824-6566-49A0-96E1-8F09461D0D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AB846D-2DBC-467B-A55D-1B401F991005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AB846D-2DBC-467B-A55D-1B401F991005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AB846D-2DBC-467B-A55D-1B401F991005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AB846D-2DBC-467B-A55D-1B401F991005}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44E2D824-6566-49A0-96E1-8F09461D0D6B} = {DA42D20F-413C-4479-A671-763AA46E91E6}
+		{77AB846D-2DBC-467B-A55D-1B401F991005} = {DB1237BC-3478-476A-8375-CCAB8A114037}
+	EndGlobalSection
+EndGlobal
