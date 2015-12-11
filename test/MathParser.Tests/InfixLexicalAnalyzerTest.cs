@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Xunit;
 
 namespace MathParser.Tests
 {
     public class InfixLexicalAnalyzerTest
     {
+        [Fact]
         public void Expressao_binaria_simples_com_espacos()
         {
             //var analyzer = new InfixLexicalAnalyzer();
